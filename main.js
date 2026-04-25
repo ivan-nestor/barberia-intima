@@ -66,7 +66,6 @@ function initReveal() {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {
       if (entry.isIntersecting) {
-        // Stagger delay based on siblings
         const siblings = entry.target.parentElement?.querySelectorAll('.reveal');
         let delay = 0;
         if (siblings) {
