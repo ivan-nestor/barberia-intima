@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbería Íntima — Grooming Masculino Profesional</title>
+  <meta name="description" content="Espacio exclusivo de grooming íntimo y corporal masculino. Profesional, discreto y sin tabúes. Buenos Aires." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#inicio" class="nav-logo">Barbería Intima</a>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#packs">Packs</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+      </ul>
+      <a href="#cta" class="btn-nav">Reservar turno</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#servicios" class="mobile-link">Servicios</a>
+      <a href="#packs" class="mobile-link">Packs</a>
+      <a href="#experiencia" class="mobile-link">Experiencia</a>
+      <a href="#testimonios" class="mobile-link">Testimonios</a>
+      <a href="#cta" class="mobile-link cta-mobile">Reservar turno</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-bg">
+      <div class="hero-grain"></div>
+      <div class="hero-lines"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-eyebrow reveal">Láser, rasuración y diseño de vello corporal<br>Ciudad Autónoma de Buenos Aires · Microcentro</div>
+      <h1 class="hero-title reveal">
+        Cuidado íntimo y<br />corporal masculino.<br />
+        <em>Profesional, discreto<br />y sin tabúes.</em>
+      </h1>
+      <p class="hero-sub reveal">Sin vergüenza. Privado. Sin tabúes.</p>
+      <div class="hero-actions reveal">
+        <a href="#cta" class="btn-primary">Reservar turno</a>
+        <a href="#servicios" class="btn-ghost">Ver servicios</a>
+      </div>
+      <a href="#como-reservar" class="hero-como reveal">¿Cómo funciona?</a>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- CÓMO RESERVAR -->
+  <section id="como-reservar" class="como-reservar">
+    <div class="container">
+      <div class="como-inner reveal">
+        <span class="section-label">El proceso</span>
+        <h2>¿Cómo reservar tu turno?</h2>
+        <p>Un proceso simple, privado y personalizado.</p>
+        <div class="como-pasos">
+          <div class="paso"><span>01</span><p>Escribinos por WhatsApp</p></div>
+          <div class="paso"><span>02</span><p>Recibís asesoramiento según tu objetivo</p></div>
+          <div class="paso"><span>03</span><p>Definimos el servicio ideal para vos</p></div>
+          <div class="paso"><span>04</span><p>Confirmás tu turno en privado</p></div>
+        </div>
+        <p class="como-seña"><strong>Confirmación:</strong> Se requiere una seña del 50% del valor total para garantizar la reserva.</p>
+        <a href="https://wa.me/5491126502999" class="btn-primary" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          Escribir por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE EL SERVICIO -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-text reveal">
+          <span class="section-label">Sobre nosotros</span>
+          <h2>Un espacio <em>exclusivo</em> para vos.</h2>
+          <p>Barbería Íntima Masculina está pensada para hombres que buscan cuidarse con discreción, profesionalismo y sin incomodidades.</p>
+          <p>Trabajamos con tecnología de depilación láser de última generación, técnicas precisas de rasuración y diseño de vello corporal, y productos seleccionados de primera línea para el cuidado de la piel.</p>
+          <p>Cada sesión es privada, personalizada y enfocada en lo que necesitás, respetando tu cuerpo, tu estilo y tu nivel de exposición.</p>
+          <p>Un entorno cuidado en cada detalle, donde la higiene, la técnica y la atención hacen la diferencia.</p>
+        </div>
+        <div class="sobre-pilares reveal">
+          <div class="pilar">
+            <div class="pilar-num">01</div>
+            <div>
+              <strong>Discreción total</strong>
+              <p>Tu privacidad es prioridad.</p>
+            </div>
+          </div>
+          <div class="pilar">
+            <div class="pilar-num">02</div>
+            <div>
+              <strong>Profesionalismo real</strong>
+              <p>Formación, técnica y productos de primera línea.</p>
+            </div>
+          </div>
+          <div class="pilar">
+            <div class="pilar-num">03</div>
+            <div>
+              <strong>Cero tabúes</strong>
+              <p>Acá el cuerpo masculino no tiene zonas prohibidas. Todo se trata con naturalidad.</p>
+            </div>
+          </div>
+          <div class="pilar">
+            <div class="pilar-num">04</div>
+            <div>
+              <strong>Resultados que se sienten</strong>
+              <p>Higiene, comodidad y confianza que notás desde la primera vez.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="servicios">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Lo que hacemos</span>
+        <h2>Servicios</h2>
+        <p>Láser, rasuración y diseño de vello corporal, con atención privada y profesional.</p>
+      </div>
+      <div class="servicios-grid" id="serviciosGrid">
+        <!-- Renderizado por JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- PACKS -->
+  <section id="packs" class="packs">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Combos</span>
+        <h2>Packs & Promociones</h2>
+        <p>Elegí tu forma de cuidarte. Simple, privado y a tu ritmo.</p>
+      </div>
+      <div class="packs-grid" id="packsGrid">
+        <!-- Renderizado por JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section id="experiencia" class="experiencia">
+    <div class="container">
+      <div class="exp-grid">
+        <div class="exp-text reveal">
+          <span class="section-label">La experiencia</span>
+          <h2>Tu cuerpo, <em>en orden.</em></h2>
+          <p>Desde el momento en que entrás hasta que salís, todo está pensado para que estés cómodo. El ambiente, la música, el trato. Nada está librado al azar.</p>
+          <p>Normalizamos el cuidado masculino porque es exactamente eso: normal. No hay nada de qué avergonzarse cuando se trata de estar bien.</p>
+          <a href="#cta" class="btn-primary">Reservar mi turno</a>
+        </div>
+        <div class="exp-items reveal">
+          <div class="exp-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" /></svg>
+            <div>
+              <strong>Privacidad garantizada</strong>
+              <span>Atención individual en un espacio reservado solo para vos.</span>
+            </div>
+          </div>
+          <div class="exp-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>
+            <div>
+              <strong>Atención personalizada</strong>
+              <span>Escuchamos lo que necesitás y adaptamos cada servicio.</span>
+            </div>
+          </div>
+          <div class="exp-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.563.563 0 0 0-.182-.557l-4.204-3.602a.563.563 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" /></svg>
+            <div>
+              <strong>Productos premium</strong>
+              <span>Usamos solo productos de primera línea, pensados para piel masculina.</span>
+            </div>
+          </div>
+          <div class="exp-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
+            <div>
+              <strong>Turnos puntuales</strong>
+              <span>Respetamos tu tiempo. Sin esperas, sin sorpresas.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section id="testimonios" class="testimonios">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Lo que dicen</span>
+        <h2>Testimonios</h2>
+      </div>
+      <div class="testimonios-grid" id="testimoniosGrid">
+        <!-- Renderizado por JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section id="cta" class="cta-final">
+    <div class="cta-bg">
+      <div class="hero-grain"></div>
+    </div>
+    <div class="container">
+      <div class="cta-content reveal">
+        <span class="section-label">¿Listo?</span>
+        <h2>Reservá tu turno <em>hoy.</em></h2>
+        <p>El primer paso es el más difícil. A partir de ahí, todo es comodidad y resultados.</p>
+        <a id="ctaWhatsapp" href="#" class="btn-primary btn-large" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          Escribinos por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">BI</div>
+        <p class="footer-copy">© 2025 Barbería Íntima. Todos los derechos reservados.</p>
+        <p class="footer-tagline">Tu cuerpo, en orden.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <a id="waFloat" href="#" class="wa-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    <span class="wa-tooltip">Reservar turno</span>
+  </a>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
