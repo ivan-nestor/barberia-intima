@@ -1,6 +1,3 @@
-// =============================================
-// BARBERÍA ÍNTIMA — MAIN JS
-// =============================================
 
 // ── WhatsApp link builder ──────────────────
 function buildWaLink() {
@@ -55,7 +52,6 @@ function renderTestimonios() {
   if (!grid) return;
   grid.innerHTML = TESTIMONIOS.map(t => `
     <div class="testimonio-card reveal">
-      <div class="testimonio-quote">"</div>
       <p class="testimonio-texto">${t.texto}</p>
       <div class="testimonio-autor">
         <span class="testimonio-nombre">${t.nombre}</span>

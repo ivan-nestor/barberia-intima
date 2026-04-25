@@ -1,7 +1,3 @@
-// =============================================
-// BARBERÍA ÍNTIMA — DATA
-// Editá este archivo para actualizar contenido
-// =============================================
 
 const NEGOCIO = {
   nombre: "Barbería Íntima",
@@ -48,6 +44,19 @@ const SERVICIOS = [
 
 const PACKS = [
   {
+    id: "primera-vez",
+    nombre: "Primera Experiencia",
+    destacado: false,
+    descripcion: "Para quienes se animan por primera vez. Sin presión, con toda la atención del mundo.",
+    incluye: [
+      "Consulta personalizada",
+      "Servicio íntimo a elección",
+      "Tratamiento calmante incluido",
+    ],
+    precio: "Consultá precios",
+    badge: "Ideal para empezar",
+  },
+  {
     id: "pack-boxer",
     nombre: "Pack Boxer",
     destacado: true,
@@ -58,21 +67,8 @@ const PACKS = [
       "Glúteos",
       "Tratamiento post-rasurado hidratante",
     ],
-    precio: "Consultá precio",
+    precio: "Consultá precios",
     badge: "Más elegido",
-  },
-  {
-    id: "primera-vez",
-    nombre: "Primera Experiencia",
-    destacado: false,
-    descripcion: "Para quienes se animan por primera vez. Sin presión, con toda la atención del mundo.",
-    incluye: [
-      "Consulta personalizada",
-      "Servicio íntimo a elección",
-      "Tratamiento calmante incluido",
-    ],
-    precio: null,
-    badge: "Ideal para empezar",
   },
   {
     id: "mantenimiento",
@@ -85,7 +81,7 @@ const PACKS = [
       "Seguimiento personalizado",
       "Prioridad en turnos",
     ],
-    precio: "Precio mensual fijo",
+    precio: "Consultá precios",
     badge: "Ahorrás cada mes",
   },
 ];
