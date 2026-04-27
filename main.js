@@ -37,7 +37,7 @@ function renderPacks() {
       <ul class="pack-incluye">
         ${p.incluye.map(i => `<li>${i}</li>`).join('')}
       </ul>
-      <div class="pack-precio">${p.precio}</div>
+      ${p.precio ? `<div class="pack-precio">${p.precio}</div>` : ''}
       <a href="https://wa.me/${NEGOCIO.whatsapp}?text=${encodeURIComponent('Hola, me interesa el ' + p.nombre)}" 
          class="pack-cta" target="_blank" rel="noopener">
         Quiero mi Pack

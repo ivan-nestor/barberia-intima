@@ -4,7 +4,8 @@ const NEGOCIO = {
   eslogan: "Sin vergüenza. Privado. Sin tabúes.",
   whatsapp: "5491126502999",
   whatsappMensaje: "Hola, quiero reservar un turno en Barbería Íntima.",
-  instagram: "#",
+  instagram: "https://www.instagram.com/barberia.intima?igsh=a3d2NWNkNDBya2px",
+  maps: "https://maps.app.goo.gl/ifAfaW6jpcuEgTFg7?g_st=iw",
 };
 
 const SERVICIOS = [
@@ -16,6 +17,8 @@ const SERVICIOS = [
       { nombre: "Tira interglútea", precio: null },
       { nombre: "Glúteos completos", precio: null },
       { nombre: "Rebajes personalizados", precio: null },
+      { nombre: "Axilas", precio: null }, 
+      { nombre: "Consultá por otras zonas de tu cuerpo", precio: null },
     ]
   },
   {
@@ -27,6 +30,7 @@ const SERVICIOS = [
       { nombre: "Espalda", precio: null },
       { nombre: "Pecho", precio: null },
       { nombre: "Piernas", precio: null },
+      { nombre: "Consultá por otras zonas de tu cuerpo", precio: null },
     ]
   },
   {
@@ -38,6 +42,7 @@ const SERVICIOS = [
       { nombre: "Espalda", precio: null },
       { nombre: "Brazos", precio: null },
       { nombre: "Axilas", precio: null },
+      { nombre: "Consultá por otras zonas de tu cuerpo", precio: null },
     ]
   },
 ];
@@ -51,7 +56,7 @@ const PACKS = [
     incluye: [
       "Consulta personalizada",
       "Servicio íntimo a elección",
-      "Tratamiento calmante incluido",
+      "Tratamiento post-rasurado hidratante",
     ],
     precio: "Consultá precios",
     badge: "Ideal para empezar",
@@ -89,12 +94,12 @@ const PACKS = [
 const TESTIMONIOS = [
   {
     nombre: "Matías R.",
-    texto: "Nunca pensé que me iba a animar. El trato fue de diez, sin juzgar nada. Volví tres veces en el mismo mes.",
+    texto: "Nunca pensé que me iba a animar. El trato fue de diez, sin juzgar nada. Volví dos veces en el mismo mes.",
     servicio: "Rasuración íntima",
   },
   {
     nombre: "Sebastián L.",
-    texto: "Ambiente muy tranquilo y profesional. Me explicaron cada paso, nada de sorpresas. Recomendable al 100%.",
+    texto: "Ambiente muy tranquilo y profesional. German me explicó cada paso, nada de sorpresas. Recomendable al 100%.",
     servicio: "Pack Boxer",
   },
   {
@@ -104,7 +109,8 @@ const TESTIMONIOS = [
   },
   {
     nombre: "Ignacio V.",
-    texto: "Fui con el pack de primera vez y salí sintiéndome otra persona. Vale cada peso.",
+    texto: "Fui con el pack de primera vez y sali sientodeme super comodo. La experiencia lo vale.",
     servicio: "Primera Experiencia",
   },
 ];
+

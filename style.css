@@ -957,3 +957,15 @@ body {
   .como-pasos { grid-template-columns: 1fr; }
 }
  
+.footer-links {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+.footer-icon {
+  color: var(--c-text-muted);
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+}
+.footer-icon:hover { color: var(--c-accent); }
